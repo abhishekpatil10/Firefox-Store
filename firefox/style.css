@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 9vh;
+}
+.nav .nav-bars {
+  display: none;
+}
+.nav h2 {
+  color: orange;
+  margin: 0.2em 1em;
+  font-style: oblique;
+}
+.nav h2:hover {
+  border: 2px solid orange;
+}
+.nav h2 {
+  padding: 0 4rem;
+}
+.nav .nav-links ul {
+  align-items: center;
+  padding: 0.2rem 0;
+  font-weight: bold;
+  margin-right: 3em;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav {
+  padding: 0.5rem 2rem;
+}
+.nav-links li {
+  margin-top: 0.5em;
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: large;
+}
+.nav-links li:hover {
+  border-bottom: 5px solid slateblue;
+  border-radius: 5em;
+  cursor: pointer;
+}
+.nav h2:hover {
+  cursor: pointer;
+}
+
+.main {
+  background-color: black;
+  background-size: 200vh;
+  padding: 5em 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main .main-bg {
+  margin-top: 2em;
+}
+.main .cont-form form {
+  display: flex;
+  width: 100%;
+  margin-left: 5rem;
+  margin-top: -0.9em;
+  box-shadow: 5px 5px red;
+  border-radius: 2em;
+  background-color: orange;
+  background-size: cover;
+  flex-direction: column;
+  position: relative;
+}
+.cont-form form input {
+  background-color: black;
+  color: white;
+  margin: 0.7rem 2rem;
+  padding: 2rem;
+  width: 87%;
+  height: 5vh;
+}
+.cont-form #sub {
+  color: white;
+  margin-bottom: 1em;
+}
+.cont-form #sub:hover {
+  border-radius: 2em;
+}
+.cont-form p {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 0.2em;
+  background-color: black;
+  font-style: italic;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  margin-top: -1em;
+  border-radius: 1em;
+  margin-left: 2.5em;
+}
+.main .main-bg {
+  padding: 4rem 0;
+}
+
+.main .main-bg img:hover {
+  cursor: pointer;
+}
+.cont-form #sub {
+  width: 60%;
+  height: 7vh;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 20%;
+  border-radius: 0.5em;
+}
+
+.main-bg .btn {
+  color: white;
+  background-color: black;
+  margin-left: 12rem;
+  margin-top: 9.5rem;
+  position: absolute;
+  padding: 0.8em;
+}
+
+.main-bg .btn:hover {
+  transform: scale(1.3);
+  font-size: 20px;
+}
+
+.coll {
+  padding: 1em 4em;
+  border-top: 2px solid white;
+}
+.coll h2 {
+  padding-bottom: 0.5em;
+  width: 20%;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+
+  cursor: pointer;
+}
+.coll h2:hover {
+  border-bottom: 5px solid slateblue;
+}
+.coll .cycle {
+  border: 2px solid white;
+  width: 30%;
+  margin-top: 3em;
+}
+.coll .categ {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+}
+.coll .cycle .cy-card {
+  margin: 3em 1.6em;
+}
+.coll .cycle .cy-desc {
+  margin: 0 4em;
+  color: white;
+}
+.coll .cycle .cy-desc ul li {
+  margin-left: 1em;
+}
+.coll .cycle .cy-desc .btn {
+  background-color: white;
+  padding: 0.5em 1em;
+  width: 60%;
+  margin: 0.5em 0em;
+  color: black;
+}
+.coll .cycle .cy-desc .btn:hover {
+  border-radius: 2em;
+}
+.stores {
+  padding: 1em 5.5em;
+  border-top: 2px solid white;
+}
+.stores h2 {
+  padding-bottom: 0.5em;
+  width: 13%;
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.stores .stor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+.stores h2:hover {
+  border-bottom: 5px solid slateblue;
+}
+
+.stores-1 {
+  margin-top: 1em;
+  padding: 2em 4em;
+  border: 2px solid white;
+  width: 30%;
+}
+.stores-1 h4 {
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+}
+.stores-1 img {
+  margin-left: -2em;
+  width: 130%;
+  height: 30vh;
+}
+.stores-1 h5 {
+  color: white;
+  margin: 1em;
+  text-align: center;
+}
+.stores-1 button {
+  margin: 0 4em;
+  padding: 0.8em;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+.stores-1 button:hover {
+  border-radius: 2em;
+}
+.footer {
+  border-top: 2px solid white;
+}
+.footer .left-foo img {
+  margin-left: 5em;
+}
+.footer .cent-foo h4 {
+  color: orange;
+  margin-left: 6%;
+  padding: 1em;
+}
+.footer .cent-foo {
+  margin-left: 40%;
+  margin-top: -13%;
+}
+.footer .cent-foo i {
+  font-size: 28px;
+  color: wheat;
+  margin-left: 2em;
+}
+.footer .cent-foo i:hover {
+  color: orange;
+  cursor: pointer;
+  background-color: white;
+}
+.footer .right-foo {
+  margin-left: 80%;
+  margin-top: -6em;
+}
+.footer .right-foo ul {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.footer .right-foo ul li:hover {
+  color: orange;
+}
+
+.open-button {
+  background-color: orange;
+  color: white;
+  padding: 1px 0px;
+  border-radius: 50%;
+  height: 12vh;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 2em;
+  width: 80px;
+  font-size: 40px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.chat-popup form h1 {
+  background-color: orange;
+  text-align: center;
+}
+.chat-popup form b {
+  color: white;
+  background-color: black;
+  padding: 0.5em;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 500px) {
+  .nav {
+    background: #000;
+  }
+  .nav h2 {
+    display: block;
+    margin-left: -1em;
+  }
+  .nav .nav-bars {
+    display: block;
+    float: right;
+    margin-left: 3em;
+    margin-top: 0.1em;
+    color: orange;
+    font-size: 26px;
+  }
+  .nav-links {
+    color: white;
+    display: none;
+  }
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200%;
+    height: 10vh;
+  }
+  .nav-links ul li i {
+    display: none;
+  }
+  .nav-links ul li {
+    font-size: 18px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main .omg .main-bg img {
+    width: 100%;
+  }
+  .main .cont-form form {
+    width: 100%;
+    margin-left: 0em;
+  }
+  .main .cont-form form p {
+    font-size: 25px;
+  }
+  .coll .categ {
+    display: inline;
+  }
+  .coll .categ .cycle {
+    width: 100%;
+  }
+  .coll .categ .cycle .btn {
+    width: 100%;
+  }
+  .coll .categ .cycle .cy-desc h4 {
+    font-size: 20px;
+  }
+  .coll .categ .cycle img {
+    width: 100%;
+  }
+  .stores .stor {
+    display: inline;
+  }
+  .stores .stor .stores-1 {
+    width: 120%;
+    margin-left: -1em;
+  }
+  .stores .stor .stores-1 img {
+    width: 150%;
+  }
+  .stores .stor .stores-1 .btn {
+    width: 100%;
+    margin-left: -0em;
+  }
+  .stores .stor .stores-1 h5 {
+    margin-left: -1em;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .cent-foo {
+    width: 100%;
+    margin-left: 4em;
+  }
+  .footer .cent-foo h4 {
+    margin-left: 2em;
+  }
+  .footer .right-foo {
+    margin-top: 3em;
+    align-items: center;
+    margin-left: 10em;
+  }
+}
